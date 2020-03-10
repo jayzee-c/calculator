@@ -10,6 +10,7 @@ exports.calculate = function(req, res) {
     res.json({ error: err.message });
   });
 
+  // redid plus operand
   var operations = {
     'add':      function(a,b) { return a + b },
     'subtract': function(a,b) { return a - b },
